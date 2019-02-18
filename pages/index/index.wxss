@@ -1,0 +1,233 @@
+.bg{
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  position: fixed;
+}
+
+@import '../resources/css/font.wxss';
+/**index.wxss**/
+.weui-grids {
+  position: relative;
+  overflow: hidden;
+   margin-top: 150rpx;
+    margin-left: 130rpx;
+    width: 66.65%;
+    background-size: 100% 100%;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/9.png');
+
+}
+.gridwh{
+  margin-left: 20rpx;
+  width: 470rpx;
+  height: 500rpx;
+}
+
+.weui-grids:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 2rpx;
+  border-top: 0rpx solid black;
+  color: black;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  
+        
+}
+.weui-grids:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2rpx;
+  bottom: 0;
+  border-left: 0rpx solid black;
+  color: black;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+.weui-grid {
+  position: relative;
+  float: left;
+  padding: 20rpx 10rpx;
+  width:155rpx;
+  box-sizing: border-box;
+  height:155rpx;
+}
+.weui-grid:before {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2rpx;
+  bottom: 0;
+  border-right: 0rpx solid black;
+  color: black;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+.weui-grid:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 2rpx;
+  border-bottom: 0rpx solid black;
+  color: black;
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+  
+        
+}
+
+.weui-grid:active {
+  background-color: #ECECEC;
+}
+
+
+
+.weui-grid__icon {
+  
+  padding-left: 30rpx;
+ padding-top: 45rpx;
+}
+.weui-grid__icon image {
+  display: flex;
+  width: 65rpx;
+  height: 65rpx;
+}
+
+.weui-grid__label {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  font-size: 28rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+.condition_box{
+  margin-top: 30rpx;
+  margin-left: 55rpx;
+  display: flex;
+  width: 646rpx;
+  height: 582rpx;
+}
+
+
+.condition{
+  
+  width: 646rpx;
+  height: 583rpx;
+  z-index: -5;
+  position: absolute;
+}
+
+.leftbigbox{
+  width: 350rpx;
+  height: 510rpx;
+  
+}
+
+.missbox{
+  padding-left: 50rpx;
+  padding-top: 150rpx;
+  z-index: 2;
+  position: relative;
+ 
+
+}
+
+
+.miss{
+   width: 254rpx;
+ height: 62rpx;
+ position: absolute;
+ z-index: 3;
+}
+
+.missvalue{
+  position: absolute;
+  z-index: 3;
+  margin-left: 195rpx;
+  margin-top: 18rpx;
+  font-size: 27rpx;
+  font-family: 'gf';
+}
+
+
+
+
+.amorbox{
+  padding-left: 50rpx;
+  padding-top: 80rpx;
+  z-index: 2;
+  position: relative;
+ 
+
+}
+
+
+.timebox{
+  padding-left: 50rpx;
+  padding-top: 80rpx;
+  z-index: 2;
+  position: relative;
+ 
+
+}
+
+.time{
+  width: 253rpx;
+  height: 118rpx;
+   position: absolute;
+ z-index: 3;
+}
+
+.timevalue{
+    position: absolute;
+  z-index: 3;
+  margin-left: 195rpx;
+  margin-top: 18rpx;
+  font-size: 27rpx;
+  color: white;
+}
+
+.Fairybox{
+  padding-left: 50rpx;
+  padding-top: 100rpx;
+  z-index: 2;
+  position: relative;
+ 
+
+}
+
+.Fairy{
+   width: 254rpx;
+  height: 79rpx;
+   position: absolute;
+ z-index: 3;
+}
+
+.rightbigbox{
+  width: 300rpx;
+  display: flex;
+}
+
+
+.ziti{
+  font-family: 'gf';
+  margin-top: 150rpx;
+  font-size: 50rpx;
+}

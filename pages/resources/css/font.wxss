@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'gf';
+     src:url('https://www.gamepaper.cn/Picture/font/gf3.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.test {
+    font-family:'gf';
+}

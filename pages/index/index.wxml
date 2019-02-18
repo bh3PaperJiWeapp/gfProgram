@@ -1,0 +1,57 @@
+<!--index.wxml-->
+
+<view class="container" style="background-image: url({{mainBgUrl}});position: fixed; mode='aspectFit'; background-size: 100% 100% ">
+        <view class="input">
+            <view class="weui-grids">
+              <view class='gridwh'>
+                <view class="weui-grid" wx:for="{{routers}}" wx:key="name">
+                        <view class='weui-grid__bg'>
+                            <view class="weui-grid__icon">
+                                <image src=" {{item.icon}}" mode="scaleToFill"/>
+                            </view>
+                            
+                        </view>
+                </view>
+              </view>
+            </view>
+        </view>
+
+      <view    class='condition_box'>
+        <image src='../resources/images/2.png' mode='scaleToFill'  class='condition'></image>
+
+
+              <view class='leftbigbox'>
+                    <view class='missbox'>
+                      <image  src='../resources/images/miss.png' class='miss'></image>
+                      <text  class='missvalue'>100</text>
+                    </view>
+
+                    <view class='amorbox'>
+                      <image src='../resources/images/amor.png' class='miss'></image>
+                      <text  class='missvalue'>100</text>
+                    </view>
+
+                    <view class='timebox'>
+                      <image src='../resources/images/time.png' class='time'></image>
+                      
+                    </view>
+
+                    <view class='Fairybox'>
+                      <image src='../resources/images/Fairy.png' class='Fairy'></image>
+                      
+                    </view>
+
+
+              </view>
+
+              <view class='rightbigbox'>
+                  <view class='ziti' style='color:white; '>safdafaedaf打法大鳄哇哇</view>
+              <view  style='color:white;  margin-top: 150rpx; '>safdafae法大鳄哇哇</view>
+              </view>
+
+
+      </view>
+
+
+
+</view> 
