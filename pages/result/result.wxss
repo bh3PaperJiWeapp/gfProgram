@@ -1,7 +1,6 @@
 /* pages/result/result.wxss */
 .main{
- background-image: url('https://www.gamepaper.cn/Picture/gfimage/valueprint/main.png');
-  background-size: 100% 100%;
+
   width: 500rpx;
   height: 1326rpx;
   margin-left: 125rpx;

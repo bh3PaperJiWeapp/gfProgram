@@ -8,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    mainBgUrl: "../resources/images/valueprint_bg.png",
+    mainBgUrl: "https://www.gamepaper.cn/Picture/gfimage/result/bg.png",
  
    
   },

@@ -17,36 +17,64 @@
         </view>
 
       <view    class='condition_box'>
-        <image src='../resources/images/2.png' mode='scaleToFill'  class='condition'></image>
+        <view    class='condition'></view>
 
 
               <view class='leftbigbox'>
                     <view class='missbox'>
                       <image  src='../resources/images/miss.png' class='miss'></image>
-                      <text  class='missvalue'>100</text>
+                      <input  value='100' type='digit' maxlength='3' class='missvalue'></input>
                     </view>
 
                     <view class='amorbox'>
                       <image src='../resources/images/amor.png' class='miss'></image>
-                      <text  class='missvalue'>100</text>
+                      <input  value='100'  type='digit' maxlength='3' class='missvalue2'></input>
                     </view>
 
                     <view class='timebox'>
-                      <image src='../resources/images/time.png' class='time'></image>
-                      
+                    <view class='timevalue'>
+                      <image     src='../resources/images/time.png'  class='time'></image>
+                      <image     src='../resources/images/6s1.png' class='sixs1'></image>
+                    
+
+                      <image     src='../resources/images/16s2.png' class='sixteens1'></image>
+                      <image     src='../resources/images/60s2.png' class='sixtys1'></image>
+                    </view>
+
                     </view>
 
                     <view class='Fairybox'>
                       <image src='../resources/images/Fairy.png' class='Fairy'></image>
-                      
+                      <text class='chooseelf'>选择妖精</text>
+                      <text class='chooseelf2'>—— ——</text>
                     </view>
 
 
               </view>
 
               <view class='rightbigbox'>
-                  <view class='ziti' style='color:white; '>safdafaedaf打法大鳄哇哇</view>
-              <view  style='color:white;  margin-top: 150rpx; '>safdafae法大鳄哇哇</view>
+
+                 <view class='normalorelite'>
+                   <view   class='normal1' ></view>
+                   <view   class='elite'></view>
+                 </view>
+
+                <view class='dayornight'>
+                  <view class='day'></view>  
+                  <view class='night'></view>
+                </view>
+               
+                 <view class='skillorno'>
+                  <view class='skill'></view>  
+                  <view class='noskill'></view>
+                </view>
+
+
+                      <view class='startbox'>
+                      <view class='start'></view>
+                      
+                    </view>
+                  
               </view>
 
 

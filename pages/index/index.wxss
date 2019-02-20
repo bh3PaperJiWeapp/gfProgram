@@ -141,8 +141,8 @@
 }
 
 .missbox{
-  padding-left: 50rpx;
-  padding-top: 150rpx;
+  margin-left: 50rpx;
+  margin-top: 130rpx;
   z-index: 2;
   position: relative;
  
@@ -158,20 +158,29 @@
 }
 
 .missvalue{
-  position: absolute;
-  z-index: 3;
-  margin-left: 195rpx;
-  margin-top: 18rpx;
+  position: relative;
+  z-index: 5;
+  margin-left: 140rpx;
+  padding-top: 10rpx;
   font-size: 27rpx;
   font-family: 'gf';
+  text-align: center;
 }
 
-
+.missvalue2{
+  position: relative;
+  z-index: 5;
+  margin-left: 140rpx;
+  margin-top: 10rpx;
+  font-size: 27rpx;
+  font-family: 'gf';
+  text-align: center;
+}
 
 
 .amorbox{
   padding-left: 50rpx;
-  padding-top: 80rpx;
+  padding-top: 20rpx;
   z-index: 2;
   position: relative;
  
@@ -181,7 +190,7 @@
 
 .timebox{
   padding-left: 50rpx;
-  padding-top: 80rpx;
+  padding-top: 20rpx;
   z-index: 2;
   position: relative;
  
@@ -189,45 +198,193 @@
 }
 
 .time{
-  width: 253rpx;
-  height: 118rpx;
+  width: 195rpx;
+  height: 38rpx;
    position: absolute;
  z-index: 3;
 }
 
+.sixs1{
+  width: 70rpx;
+  height: 35rpx;
+  margin-left: 180rpx;
+  margin-top: 19rpx;
+}
+
+
+
+.sixteens1{
+  
+  width: 70rpx;
+  height: 35rpx;
+  margin-left: 112rpx;
+  margin-top: -8rpx;
+}
+.sixtys1{
+  width: 70rpx;
+  height: 35rpx;
+  margin-left: 172rpx;
+  margin-top: -22rpx;
+}
+
+
+
+
+
 .timevalue{
-    position: absolute;
-  z-index: 3;
-  margin-left: 195rpx;
-  margin-top: 18rpx;
-  font-size: 27rpx;
-  color: white;
+  
+  display: flex;
+  flex-direction: column;
+
+ 
 }
 
 .Fairybox{
-  padding-left: 50rpx;
-  padding-top: 100rpx;
+  padding-left: 40rpx;
+  padding-top: 10rpx;
   z-index: 2;
   position: relative;
- 
+width: 264rpx;
+  height: 85rpx;
 
 }
 
 .Fairy{
-   width: 254rpx;
-  height: 79rpx;
+   width: 264rpx;
+  height: 85rpx;
    position: absolute;
  z-index: 3;
 }
 
+.chooseelf{
+  font-family: 'gf';
+  color: black;
+  z-index: 5;
+  position: absolute;
+  font-size: 22rpx;
+  margin-left: 130rpx;
+  margin-top: 29rpx;
+ font-weight: bold;
+ text-align: center;
+}
+
+.chooseelf2{
+  font-family: 'gf';
+  color: black;
+  z-index: 5;
+  position: absolute;
+  font-size: 22rpx;
+  margin-left: 130rpx;
+  margin-top: 60rpx;
+  font-weight: bold;
+  text-align: center;
+}
+
 .rightbigbox{
   width: 300rpx;
+height: 510rpx;
+position: relative;
+z-index: 5;
+display: flex;
+flex-direction: column;
+}
+
+.normalorelite{
+   
+ margin-top: 140rpx;
+  position: relative;
   display: flex;
+flex-direction: column;
+}
+
+.normal1{
+  width: 140rpx;
+  height: 42rpx;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/normal1.png');
+  background-size: 100% 100%;
+  
 }
 
 
-.ziti{
-  font-family: 'gf';
-  margin-top: 150rpx;
-  font-size: 50rpx;
+
+.elite{
+  margin-left: 125rpx;
+  margin-top: -20rpx;
+  width: 140rpx;
+  height: 42rpx;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/elite2.png');
+  background-size: 100% 100%;
+
+
+
+
+}
+
+.dayornight{
+  margin-top: 20rpx;
+  position: relative;
+  display: flex;
+flex-direction: column;
+
+}
+
+.day{
+  width: 140rpx;
+  height: 42rpx;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/day1.png');
+  background-size: 100% 100%;
+  
+}
+.night{
+  margin-left: 125rpx;
+  margin-top: -20rpx;
+  width: 140rpx;
+  height: 42rpx;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/night2.png');
+  background-size: 100% 100%;
+}
+
+
+.skillorno{
+  margin-top: 20rpx;
+  position: relative;
+  display: flex;
+flex-direction: column;
+
+}
+
+.skill{
+  width: 140rpx;
+  height: 42rpx;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/skill1.png');
+  background-size: 100% 100%;
+  
+}
+.noskill{
+  margin-left: 125rpx;
+  margin-top: -20rpx;
+  width: 140rpx;
+  height: 42rpx;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/noskill2.png');
+  background-size: 100% 100%;
+}
+
+
+.startbox{
+  padding-left: 20rpx;
+  padding-top: 30rpx;
+  z-index: 2;
+  position: relative;
+width: 264rpx;
+  height: 85rpx;
+
+}
+
+.start{
+   width: 240rpx;
+  height: 95rpx;
+   position: absolute;
+ z-index: 3;
+ background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/start.png');
+  background-size: 100% 100%;
 }

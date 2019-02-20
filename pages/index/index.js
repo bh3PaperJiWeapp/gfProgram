@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    mainBgUrl: "../resources/images/bg.png",
+    mainBgUrl: "https://www.gamepaper.cn/Picture/gfimage/first/bg.png",
     
     userInfo: {},
     hasUserInfo: false,
@@ -57,6 +57,10 @@ Page({
       }
   ]
   },
+
+ 
+  
+  
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
