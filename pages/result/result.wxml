@@ -1,12 +1,122 @@
 <!--pages/result/result.wxml-->
+        <!-- 背景图 -->
   <view class="container" style="background-image: url({{mainBgUrl}});position: fixed; mode='aspectFit'; background-size: 100% 100% ">
-       <view class='main'>
-          
-       
-       
-       </view>
+            <view class='mains'>
+
+             <!-- 顶上的大盒子PP90那个 -->
+                <view class='head'>
+
+                     <view>
+                      <view class='gunname'>PP90</view>
+                      <!-- 黑色框框里的图片，将人形立绘裁剪过后直接放入里边，这里我怕影响大佬操作，这个gunimage只是黑色底板，人形立绘的view需要大佬自行添加并盖在黑色底板上边，下面的白色图片框同理 -->
+                      <image class='gunimage'></image>
+                    </view>
+                    <!-- 各项数据的盒子 -->
+                      <view class='textbox'>
+
+                            <text class='total' >70000</text>
+                            
+                            <text class='dps'>70000</text>
+
+                            <text class='rate'>70000</text>
+                      </view>
+
+                </view>
+            
+            
+             </view>
+        
+   <!-- 下面4个盒子的总盒子 -->
+        <view class='allhumanbox'>
+
+        <!-- 第一个盒子 -->
+                  <view class='humanbox'>
+                  <!-- 白色底板图片，需要大佬添加image标签覆盖在底板上 -->
+                  <image class='humanboximage'></image>
+
+                    <view class='downgunname'>P90</view>
+                    <!-- 白色动画线条 -->
+                    <image class='headline'></image>
+                  
+                   <view class='textbox2'>
+                            <text class='total2'>70000</text>
+                            
+                            <text class='dps2'>70000</text>
+
+                            <text class='rate2'>70000</text>
+                      </view>
 
 
+                  </view>
+
+
+                          <!-- 第二个 -->
+                  <view class='humanbox'>
+                  <image class='humanboximage'></image>
+                    <view class='downgunname'>P90</view>
+                    <image class='headline2'></image>
+                  
+                  <view class='textbox2'>
+                            <text class='total3'>70000</text>
+                            
+                            <text class='dps3'>70000</text>
+
+                            <text class='rate3'>70000</text>
+                      </view>
+
+
+                  </view>
+
+
+
+                  <!-- 第三个 -->
+                  <view class='humanbox'>
+                  <image class='humanboximage'></image>
+                    <view class='downgunname'>P90</view>
+                    <image class='headline3'></image>
+
+                    <view class='textbox2'>
+                            <text class='total4'>70000</text>
+                            
+                            <text class='dps4'>70000</text>
+
+                            <text class='rate4'>70000</text>
+                      </view>
+
+
+                  
+                  </view>
+             
+
+
+                  <!-- 第四个 -->
+                  <view class='humanbox'>
+                  <image class='humanboximage'></image>
+                    <view class='downgunname'>P90</view>
+                    <image class='headline4'></image>
+
+                    <view class='textbox2'>
+                            <text class='total5'>70000</text>
+                            
+                            <text class='dps5'>70000</text>
+
+                            <text class='rate5'>70000</text>
+                      </view>
+
+
+                  
+                  </view>
+         </view>
+              
+              <!-- 总输出盒子，位于最底层 -->
+              <view class='alltotalbox'>
+                 <view class='alltotal'>
+                 <!-- 总输出的值绑定在这个text -->
+                 <text class='alltotalvalue'> 156456</text>
+                 </view>
+                         <!-- 跳转回首页的按钮 -->
+                          <view bindtap='toindex' class='return'></view>  
+              </view>
 
 
 

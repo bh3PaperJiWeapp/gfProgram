@@ -1,26 +1,22 @@
-// pages/result/result.js
-
-
-const app = getApp();
-
-
+// pages/thank.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    mainBgUrl: "https://www.gamepaper.cn/Picture/gfimage/result/bg.png",
- 
    
-  },
+      mainBgUrl: "https://www.gamepaper.cn/Picture/gfimage/result/thankbg.jpg",
+
+
   
-  toindex: function () {
-    wx.navigateBack({
-    
-    })
   },
 
+  toindex: function () {
+    wx.navigateBack({
+
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

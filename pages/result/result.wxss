@@ -1,4 +1,7 @@
 /* pages/result/result.wxss */
+@import '../resources/css/font.wxss';
+
+
 .main{
 
   width: 500rpx;
@@ -8,5 +11,541 @@
  
 }
 
+.head{
+   margin-left: 80rpx;
+  margin-top: 160rpx;
+  width: 600rpx;
+  height: 200rpx;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/result/2.png');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headgunbox{
+    display: flex;
+  flex-direction: row;
+}
 
 
+.gunname{
+  width: 300rpx;
+
+  font-family: 'gf';
+  margin-left: 72rpx;
+  margin-top: 25rpx;
+  font-size: 57rpx;
+}
+
+.gunimage{
+  margin-left: 430rpx;
+margin-top: -110rpx;
+  width: 143rpx;
+  height: 202rpx;
+background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/2image.png');
+  background-size: 100% 100%;
+
+}
+
+
+
+.textbox{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rpx;
+  margin-top: -88rpx;
+  width: 350rpx;
+  height: 80rpx;
+}
+
+.total{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+
+ 
+}
+
+
+.dps{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 12rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+
+}
+
+.rate{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 15rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+
+}
+
+.humanbox{
+  margin-top: 40rpx;
+  margin-left: 90rpx;
+    width: 420rpx;
+  height: 150rpx;
+    background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/humanbox.png');
+  background-size: 100% 100%;
+ display: flex;
+  flex-direction: row;
+  
+}
+
+
+.humanboximage{
+  width: 115rpx;
+  height: 160rpx;
+   background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/humanboximage.png');
+  background-size: 100% 100%;
+ 
+ 
+  margin-left: 20rpx;
+
+}
+
+
+.headline{
+    width: 330rpx;
+  height: 8rpx;
+  margin-top: 58rpx;
+  margin-left: 145rpx;
+  position: absolute;
+  z-index: 5;
+  background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/white.png');
+  background-size: 100% 100%;
+  animation: mymove 1s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes mymove
+{
+from {width:0rpx;}
+to {width:330rpx;}
+}
+
+.headline2{
+    width: 330rpx;
+  height: 8rpx;
+  margin-top: 58rpx;
+  margin-left: 145rpx;
+  position: absolute;
+  z-index: 5;
+  background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/white.png');
+  background-size: 100% 100%;
+  animation: mymove2 3.8s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes mymove2
+{
+from {width:0rpx;}
+60%{width:0rpx;}
+to {width:330rpx;}
+}
+
+.headline3{
+    width: 330rpx;
+  height: 8rpx;
+  margin-top: 58rpx;
+  margin-left: 145rpx;
+  position: absolute;
+  z-index: 5;
+  background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/white.png');
+  background-size: 100% 100%;
+  animation: mymove3 6.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes mymove3
+{
+from {width:0rpx;}
+70%{width:0rpx;}
+to {width:330rpx;}
+}
+
+.headline4{
+    width: 330rpx;
+  height: 8rpx;
+  margin-top: 58rpx;
+  margin-left: 145rpx;
+  position: absolute;
+  z-index: 5;
+  background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/white.png');
+  background-size: 100% 100%;
+  animation: mymove4 10s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes mymove4
+{
+from {width:0rpx;}
+60%{width:0rpx;}
+to {width:330rpx;}
+}
+
+
+.downgunname{
+  width: 300rpx;
+position: absolute;
+z-index: 5;
+  font-family: 'gf';
+  margin-left: 145rpx;
+  margin-top: 0rpx;
+  font-size: 57rpx;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.textbox2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 127rpx;
+  margin-top: 80rpx;
+  width: 350rpx;
+  height: 80rpx;
+  color: white;
+  position: absolute;
+  z-index: 7;
+}
+
+
+.total2{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+    animation: value2 1.6s ;
+
+  animation-iteration-count: 1;
+
+}
+@keyframes value2
+{
+0% {opacity: 0;}
+50% {opacity: 0;}
+100% {opacity:1;}
+}
+
+.total3{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+    animation: value5 5.6s ;
+
+  animation-iteration-count: 1;
+
+}
+@keyframes value5
+{
+0% {opacity: 0;}
+50% {opacity: 0;}
+100% {opacity:1;}
+}
+
+.total4{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+    animation: value6 9.6s ;
+
+  animation-iteration-count: 1;
+
+}
+@keyframes value6
+{
+0% {opacity: 0;}
+50% {opacity: 0;}
+100% {opacity:1;}
+}
+
+
+.total5{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+    animation: value7 13.6s ;
+
+  animation-iteration-count: 1;
+
+}
+@keyframes value7
+{
+0% {opacity: 0;}
+50% {opacity: 0;}
+100% {opacity:1;}
+}
+
+
+
+
+.dps2{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 17rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+   animation: value3 2.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes value3
+{
+from {opacity: 0;}
+50% {opacity: 0;}
+to {opacity: 1;}
+}
+
+
+
+.dps3{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 17rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+   animation: value8 6.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes value8
+{
+from {opacity: 0;}
+50% {opacity: 0;}
+to {opacity: 1;}
+}
+
+.dps4{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 17rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+   animation: value9 10.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes value9
+{
+from {opacity: 0;}
+50% {opacity: 0;}
+to {opacity: 1;}
+}
+
+.dps5{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 17rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+   animation: value10 14.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes value10
+{
+from {opacity: 0;}
+50% {opacity: 0;}
+to {opacity: 1;}
+}
+
+
+
+.rate2{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 17rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+   animation: value11 3.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes value11
+{
+from {opacity: 0;}
+50% {opacity: 0;}
+to {opacity: 1;}
+}
+
+
+.rate3{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 17rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+   animation: value12 7.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes value12
+{
+from {opacity: 0;}
+50% {opacity: 0;}
+to {opacity: 1;}
+}
+
+
+.rate4{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 17rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+   animation: value13 11.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes value13
+{
+from {opacity: 0;}
+50% {opacity: 0;}
+to {opacity: 1;}
+}
+
+.rate5{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top: 35rpx;
+  margin-left: 17rpx;
+  font-size: 32rpx;
+  font-family: 'gf';
+   animation: value14 15.6s infinite;
+
+  animation-iteration-count: 1;
+}
+@keyframes value14
+{
+from {opacity: 0;}
+50% {opacity: 0;}
+to {opacity: 1;}
+}
+
+
+.alltotalbox{
+  margin-left: 90rpx;
+margin-top: 30rpx;
+display: flex;
+flex-direction: row;
+}
+
+.alltotal{
+  background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/allprint.png');
+  background-size: 100% 100%;
+  margin-left: 50rpx;
+  width: 335rpx;
+  height: 43rpx;
+}
+
+.alltotalvalue{
+  margin-left: 190rpx;
+  margin-top: 0rpx;
+  font-family: 'gf';
+  font-size: 37rpx;
+  position: absolute;
+}
+
+
+.return{
+    background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/return.png');
+  background-size: 100% 100%;
+  width: 170rpx;
+  height: 43rpx;
+  margin-left: -15rpx;
+}
+
+.return:active{
+margin-top: 7rpx;
+  transition: 0.1s;
+
+}
+
+@media(min-device-height: 610px){
+
+.allhumanbox{
+  margin-top: 100rpx;
+}
+
+
+  .humanbox{
+  margin-top: 60rpx;
+  margin-left: 90rpx;
+    width: 420rpx;
+  height: 150rpx;
+    background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/humanbox.png');
+  background-size: 100% 100%;
+ display: flex;
+  flex-direction: row;
+  
+}
+
+.alltotalbox{
+  margin-left: 90rpx;
+margin-top: 50rpx;
+display: flex;
+flex-direction: row;
+}
+
+
+}
+
+
+@media(min-device-height: 720px){
+
+.allhumanbox{
+  margin-top: 120rpx;
+}
+
+
+  .humanbox{
+  margin-top: 75rpx;
+  margin-left: 90rpx;
+    width: 420rpx;
+  height: 150rpx;
+    background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/humanbox.png');
+  background-size: 100% 100%;
+ display: flex;
+  flex-direction: row;
+  
+}
+
+.alltotalbox{
+  margin-left: 90rpx;
+margin-top: 70rpx;
+display: flex;
+flex-direction: row;
+}
+
+}

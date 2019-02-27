@@ -5,6 +5,19 @@
   position: fixed;
 }
 
+.logo{
+  background-size: 100% 100%;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/logo.png');
+width: 260rpx;
+height: 50rpx;
+position: absolute;
+z-index: 5;
+margin-left: 400rpx;
+margin-top: 53rpx;
+
+}
+
+
 @import '../resources/css/font.wxss';
 /**index.wxss**/
 .weui-grids {
@@ -22,6 +35,8 @@
   width: 470rpx;
   height: 500rpx;
 }
+
+
 
 .weui-grids:before {
   content: " ";
@@ -88,9 +103,7 @@
         
 }
 
-.weui-grid:active {
 
-}
 
 
 
@@ -99,6 +112,13 @@
   padding-left: 20rpx;
  padding-top: 30rpx;
 }
+
+.weui-grid__icon:active{
+  margin-top: 5rpx;
+  transition: 0.1s;
+}
+
+
 .weui-grid__icon image {
   display: flex;
   width: 90rpx;
@@ -387,4 +407,75 @@ width: 264rpx;
  z-index: 3;
  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/start.png');
   background-size: 100% 100%;
+}
+
+.start:active{
+margin-top: 10rpx;
+  transition: 0.1s;
+
+}
+
+
+
+@media(min-device-height: 610px) {
+.weui-grids {
+  position: relative;
+  overflow: hidden;
+   margin-top: 210rpx;
+    margin-left: 130rpx;
+    width: 66.65%;
+    background-size: 100% 100%;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/9.png');
+
+}
+
+  .condition_box {
+    margin-top: 120rpx;
+  }
+  
+.logo{
+  background-size: 100% 100%;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/logo.png');
+width: 260rpx;
+height: 56rpx;
+position: absolute;
+z-index: 5;
+margin-left: 400rpx;
+margin-top: 60rpx;
+
+}
+
+}
+
+
+@media(min-device-height: 720px){
+
+.weui-grids {
+  position: relative;
+  overflow: hidden;
+   margin-top: 210rpx;
+    margin-left: 130rpx;
+    width: 66.65%;
+    background-size: 100% 100%;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/9.png');
+
+}
+
+  .condition_box {
+    margin-top: 120rpx;
+  }
+  
+.logo{
+  background-size: 100% 100%;
+  background-image: url('https://www.gamepaper.cn/Picture/gfimage/first/logo.png');
+width: 260rpx;
+height: 58rpx;
+position: absolute;
+z-index: 5;
+margin-left: 400rpx;
+margin-top: 65rpx;
+
+}
+
+
 }

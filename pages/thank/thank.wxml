@@ -1,0 +1,78 @@
+<!--pages/thank.wxml-->
+<!-- 本页面是死页面 -->
+<view class="container" style="background-image: url({{mainBgUrl}});position: fixed; mode='aspectFit'; background-size: 100% 100% " s>
+          
+          <view class='thank'>  鸣谢  </view> 
+             <view class='downofthank'></view>
+               <view class='allthankman'>
+
+
+                 <view class='cehua'>策划
+                    <view class='man'>Louis</view>
+                 
+                 </view>
+               
+                  <view class='cehua'>公式提供
+                    <view class='man'>欧洲喵</view>
+                 
+                 </view>
+
+                  <view class='jiandu'>挨打监督\r\t\r\t\r\t\r\t\r\t\r\t 巨乳监督
+
+                        <view class='man3'>
+                                <view class='man3_1'>海蓝雾韵</view>
+                            <view class='man3_2'> 夏小曦</view>
+                      </view>
+
+                 </view>
+               
+
+                   <view class='cehua'>UI设计
+                    <view class='man'>余烬 雾夜 粟子</view>
+                 
+                 </view>
+
+                  <view class='cehua'>程序制作
+                    <view class='man'>情报姬科技部</view>
+                 
+                 </view>
+
+                  <view class='cehua'>顾问&数据支持
+                    <view class='man4'>悲剧终产物 \r\t\r\t\r\t\r\t\r\t\r\t\r\t\r\t 少前情报姬 情报姬科技部 \r\t\r\t\r\t\r\t\r ynntk4815
+                   </view>
+                 
+                 </view>
+
+
+                    <view class='by'> By \r\t\r\t少前情报姬</view>
+                       <view class='downofthank2'></view>
+                             <view class='thankuse'>感谢您使用本工具
+                                </view>
+
+                
+               </view>
+
+
+
+                  <view class='bottom'>
+                    <view class='ver'>  
+                         <view class='version'>版本:\r\t\r\t\r\t3.0.1.16</view>
+                     </view>
+
+
+              <!-- 上面的页面是死的，这里是返回首页的链接 -->
+                        <view class='return' bindtap='toindex'></view>  
+                  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

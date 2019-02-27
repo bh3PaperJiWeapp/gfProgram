@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    mainBgUrl: "https://www.gamepaper.cn/Picture/gfimage/first/bg.png",
+    mainBgUrl: "https://www.gamepaper.cn/Picture/gfimage/first/bg.jpg",
     
     userInfo: {},
     hasUserInfo: false,
@@ -58,7 +58,12 @@ Page({
   ]
   },
 
- 
+ toresult:function(){
+   wx.navigateTo({
+     url: '../result/result',
+   })
+ },
+
   
   
   //事件处理函数

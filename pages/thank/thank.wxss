@@ -1,0 +1,173 @@
+/* pages/thank.wxss */
+@import '../resources/css/font.wxss';
+
+
+.thank{
+  font-family: 'gf';
+  font-size: 60rpx;
+  font-weight: bold;
+  
+  color: white;
+  
+  margin-left: 315rpx;
+  margin-top: 50rpx;
+}
+
+
+.downofthank{
+  width: 400rpx;
+  height: 5rpx;
+  border-radius: 10rpx;
+  background-color: white;
+   margin-left: 175rpx;
+  margin-top: 30rpx;
+}
+
+.allthankman{
+  width: 400rpx;
+  height: 900rpx;
+   margin-left: 175rpx;
+  margin-top: 20rpx;
+}
+
+.cehua{
+  margin-top: 30rpx;
+  font-family: 'gf';
+  font-size: 40rpx;
+  color: white;
+  text-align: center;
+}
+
+.man{
+  margin-top: 10rpx;
+  font-family: 'gf';
+  font-size: 31rpx;
+  color: white;
+}
+
+.jiandu{
+  margin-top: 30rpx;
+  font-family: 'gf';
+  font-size: 40rpx;
+  color: white;
+  text-align: center;
+}
+
+.man3{
+  display: flex;
+  flex-direction: row;
+}
+
+.man3_1{
+  margin-top: 10rpx;
+  font-family: 'gf';
+  font-size: 31rpx;
+  color: white;
+  text-align: left;
+  margin-left: 28rpx;
+}
+
+.man3_2{
+   margin-top: 10rpx;
+   margin-left: 110rpx;
+  font-family: 'gf';
+  font-size: 31rpx;
+  color: white;
+  text-align: left;
+}
+
+
+.by{
+  margin-top: 50rpx;
+  font-family: 'gf';
+  font-size: 40rpx;
+  color: white;
+  text-align: center;
+}
+
+
+.man4{
+  margin-top: 10rpx;
+  font-family: 'gf';
+  font-size: 31rpx;
+  color: white;
+  text-align: left;
+  
+}
+
+
+.downofthank2{
+  width: 400rpx;
+  height: 5rpx;
+  border-radius: 10rpx;
+  background-color: white;
+   margin-left: 0rpx;
+  margin-top: 15rpx;
+}
+
+.thankuse{
+  margin-top: 25rpx;
+  font-family: 'gf';
+  font-size: 40rpx;
+  color: white;
+  text-align: center;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+   margin-left: 135rpx;
+  margin-top: 50rpx;
+}
+
+.ver{
+   background-image: url('https://www.gamepaper.cn/Picture/gfimage/result/version.png');
+  background-size: 100% 100%;
+ width: 335rpx;
+  height: 43rpx;
+  
+ 
+  
+}
+
+.version{
+  text-align: center;
+  font-family: 'gf';
+  font-size: 40rpx;
+  margin-top: -2rpx;
+  margin-left: 10rpx;
+}
+
+.return{
+    background-image:  url('https://www.gamepaper.cn/Picture/gfimage/result/return.png');
+  background-size: 100% 100%;
+  width: 175rpx;
+  height: 43rpx;
+  margin-left: -20rpx;
+  
+}
+
+.return:active{
+margin-top: 7rpx;
+  transition: 0.1s;
+
+}
+
+@media(min-device-height: 610px){
+.bottom{
+  display: flex;
+  flex-direction: row;
+   margin-left: 135rpx;
+  margin-top: 200rpx;
+}
+}
+
+
+@media(min-device-height: 720px){
+.bottom{
+  display: flex;
+  flex-direction: row;
+   margin-left: 135rpx;
+  margin-top: 300rpx;
+}
+}

@@ -33,6 +33,16 @@ App({
       }
     })
   },
+  onShow: function (options) {
+    var that = this
+    var res = wx.getSystemInfoSync()
+    console.log(res)
+    if (res.model == "iPhone X"){
+      
+    }
+  },
+
+
   globalData: {
     userInfo: null
   }
